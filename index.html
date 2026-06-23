@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wytel SES問い合わせ獲得向けWebモック</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="Wytel トップへ">Wytel</a>
+    <nav class="site-nav" aria-label="主要ナビゲーション">
+      <a href="#needs">ご相談内容</a>
+      <a href="#strengths">選ばれる理由</a>
+      <a href="#flow">ご利用の流れ</a>
+      <a class="nav-cta" href="#contact">お問い合わせ</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-navy">
+      <div class="hero-content">
+        <p class="eyebrow">SES matching / Engineering partner</p>
+        <h1>IT人材の確保と提案を、信頼できるSESパートナーへ。</h1>
+        <p class="hero-lead">Wytelは「要員を探している企業様」と「要員をご提案したい企業様」をつなぐ、問い合わせ獲得向けのWebモックです。</p>
+        <div class="hero-actions" aria-label="問い合わせ導線">
+          <a class="button button-light" href="#buyer">要員を探している企業様</a>
+          <a class="button button-outline-light" href="#partner">要員をご提案したい企業様</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-label="Wytelの対応領域">
+        <span>Web / Cloud</span>
+        <span>業務システム</span>
+        <span>インフラ</span>
+        <span>PM / PMO</span>
+      </div>
+    </section>
+
+    <section id="needs" class="section section-muted">
+      <div class="section-heading">
+        <p class="eyebrow">Two entrance</p>
+        <h2>目的別にすぐ相談できる2つの導線</h2>
+      </div>
+      <div class="route-grid">
+        <article id="buyer" class="route-card">
+          <span class="card-icon">01</span>
+          <h3>要員を探している企業様</h3>
+          <p>案件条件や必要スキルをもとに、参画可能なエンジニアをご提案するための相談導線です。</p>
+          <div class="tag-list">
+            <span>即戦力人材</span><span>スキル相談</span><span>短期相談</span>
+          </div>
+          <a class="button button-primary" href="#contact">人材について相談する</a>
+        </article>
+        <article id="partner" class="route-card">
+          <span class="card-icon">02</span>
+          <h3>要員をご提案したい企業様</h3>
+          <p>待機・稼働予定のエンジニア情報をお持ちの企業様向けの協業相談導線です。</p>
+          <div class="tag-list">
+            <span>協業相談</span><span>人材提案</span><span>情報交換</span>
+          </div>
+          <a class="button button-secondary" href="#contact">要員を提案する</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="strengths" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Strength</p>
+        <h2>BtoB向けに信頼感を重視した情報設計</h2>
+      </div>
+      <div class="card-grid">
+        <article class="info-card"><h3>条件整理</h3><p>案件内容、必要スキル、稼働時期などを整理し、問い合わせの心理的負担を下げます。</p></article>
+        <article class="info-card"><h3>迅速な接点化</h3><p>ファーストビューから2導線を明確にし、目的に応じた問い合わせへ誘導します。</p></article>
+        <article class="info-card"><h3>落ち着いた印象</h3><p>白と淡いネイビーを中心に、IT企業らしい清潔感と安心感を表現します。</p></article>
+      </div>
+    </section>
+
+    <section id="flow" class="section section-muted">
+      <div class="section-heading">
+        <p class="eyebrow">Flow</p>
+        <h2>お問い合わせ後の流れ</h2>
+      </div>
+      <ol class="flow-list">
+        <li><span>1</span><strong>フォーム入力</strong><p>案件相談または要員提案の内容を入力します。</p></li>
+        <li><span>2</span><strong>内容確認</strong><p>いただいた情報をもとに、条件や提案内容を確認します。</p></li>
+        <li><span>3</span><strong>打ち合わせ</strong><p>必要に応じてオンラインで詳細をすり合わせます。</p></li>
+      </ol>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>SESに関するお問い合わせ</h2>
+        <p>Webモックのため、送信・DB保存・認証などの機能は実装していません。</p>
+      </div>
+      <form class="contact-form">
+        <label>お問い合わせ種別<select><option>要員を探している企業様</option><option>要員をご提案したい企業様</option></select></label>
+        <label>会社名<input type="text" placeholder="株式会社サンプル" /></label>
+        <label>ご担当者名<input type="text" placeholder="山田 太郎" /></label>
+        <label>お問い合わせ内容<textarea rows="5" placeholder="案件条件や提案可能な要員情報をご記入ください"></textarea></label>
+        <button class="button button-primary" type="button">問い合わせ内容を確認する</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
